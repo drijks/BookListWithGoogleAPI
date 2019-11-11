@@ -10,18 +10,17 @@ def search_for_item(value):
     r = requests.get(url="https://www.googleapis.com/books/v1/volumes", params=parms)
     rj = r.json()
     if rj.get("items"):
-        return get_five(value)
+        return get_five(rj)
     else:
         print("Oops! No books found! Try again: ")
         new_value = str(input())
         return search_for_item(new_value)
 
 
-def get_five(value):
-    parms = {"q": value}
-    r = requests.get(url="https://www.googleapis.com/books/v1/volumes", params=parms)
-    rj = r.json()
-    first_five = [rj["items"][0], rj["items"][1], rj["items"][2], rj["items"][3], rj["items"][4]]
+def get_five(rj):
+    first_five = []
+    for i in range(min(5, len(rj["items"]))):
+        first_five.append(rj["items"][i])
     for i in range(len(first_five)):
         print(i + 1)
         if first_five[i]["volumeInfo"].get("title"):
@@ -44,21 +43,24 @@ def get_five(value):
 
 
 def add_to_list(bklst):
-    print("\nAdd a book to the list by typing its corresponding number (1-5): \n")
-    real_book, selected_book = check_input()
-    if real_book:
+    print("\nAdd a book to the list by typing its corresponding number (1-5) or try a new search by typing 0: \n")
+    real_book, selected_book = check_input(bklst)
+    if real_book and selected_book != 0:
         add_selection_to_list(bklst[selected_book - 1])
+    elif real_book and selected_book == 0:
+        print("Please enter a search query such as author, title, subject, or ISBN")
+        new_search = str(input())
+        add_to_list(search_for_item(new_search))
     else:
         print("Oops! Try again!")
         add_to_list(bklst)
 
 
-def check_input():
+def check_input(bklst):
     selected_book = input()
     is_one_thru_five = False
     if selected_book.isnumeric():
-        if int(selected_book) == 1 or int(selected_book) == 2 or int(selected_book) == 3 or int(
-                selected_book) == 4 or int(selected_book) == 5:
+        if 0 <= int(selected_book) <= len(bklst):
             is_one_thru_five = True
             selected_book = int(selected_book)
     return [is_one_thru_five, selected_book]
@@ -106,7 +108,7 @@ def add_selection_to_list(selected):
     else:
         id_type = "Unique identifier"
         book_id = "Not found."
-    book_info = "\nTime Added: " + current_time + "\n Title: " + title + \
+    book_info = "\nTime Added: " + current_time + "\nTitle: " + title + \
                 "\nAuthor(s): " + authors + "\nPublisher: " + publisher + "\nDescription: " + description + \
                 "\nIdentifier: \n" + id_type + ": " + book_id + "\n\n\n"
 
@@ -124,13 +126,12 @@ def add_selection_to_list(selected):
             print("This book is already on your list!")
     else:
         my_list = open("my_book_list.txt", "w+")
-        my_list.write("Entry Number 1:\n" + book_info)
+        my_list.write("Entry Number 1" + book_info)
         my_list.close()
         print("This book has been added to your list!")
 
 
 def view_my_list():
-    print("View current list? Y/N")
     view_list = input()
     if view_list == "Y" or view_list == "YES" or view_list == "yes" or view_list == "y" or view_list == "Yes":
         my_list = io.open("my_book_list.txt", "r")
@@ -139,18 +140,24 @@ def view_my_list():
 
 
 def run_program():
-    print("Enter a search query")
+    print("Please enter a search query such as author, title, subject, or ISBN")
     newbk = input()
     five_bks = search_for_item(str(newbk))
     add_to_list(five_bks)
     # Allow users to view their book list
+    print("View current list? Y/N")
     view_my_list()
-    print("Do you want to keep searching?")
+    print("Do you want to keep searching? Y/N")
     new_search = input()
     if new_search.lower() == "y" or new_search.lower() == "yes":
         run_program()
 
 
 if __name__ == "__main__":
+    if os.path.exists("my_book_list.txt"):
+        print("Welcome back! Would you like to view your book list? Y/N")
+        view_my_list()
+    else:
+        print("Welcome!")
     run_program()
     print("Okay! Come back soon!")
