@@ -1,0 +1,121 @@
+Entry Number 1:
+
+Time Added: 2019-11-11T12:00:45.641563
+ Title: The Mist
+Author(s): ['Stephen King']
+Publisher: Simon and Schuster
+Description: #1 New York Times bestselling author Stephen King’s terrifying novella about a town engulfed in a dense, mysterious mist as humanity makes its last stand against unholy destruction—originally published in the acclaimed short story collection Skeleton Crew and made into a TV series, as well as a feature film starring Thomas Jane and Marcia Gay Harden. In the wake of a summer storm, terror descends...David Drayton, his son Billy, and their neighbor Brent Norton join dozens of others and head to the local grocery store to replenish supplies following a freak storm. Once there, they become trapped by a strange mist that has enveloped the town. As the confinement takes its toll on their nerves, a religious zealot, Mrs. Carmody, begins to play on their fears to convince them that this is God’s vengeance for their sins. She insists a sacrifice must be made and two groups—those for and those against—are aligned. Clearly, staying in the store may prove fatal, and the Draytons, along with store employee Ollie Weeks, Amanda Dumfries, Irene Reppler, and Dan Miller, attempt to make their escape. But what’s out there may be worse than what they left behind. This exhilarating novella explores the horror in both the enemy you know—and the one you can only imagine.
+Identifier: 
+ISBN_13: 9781501176241
+
+
+Entry number 2
+Time Added: 2019-11-11T12:04:42.092169
+ Title: Roadwork
+Author(s): ['Stephen King']
+Publisher: Simon and Schuster
+Description: Only Stephen King, writing as Richard Bachman, can imagine the horror of a good and angry man who fights back against bureaucracy when it threatens to destroy his vitality, home, and memories. “Under any name King mesmerizes the reader” (Chicago Sun-Times). Barton Dawes is standing in the way of progress when his unremarkable but comfortable existence suddenly takes a turn for the worst. A new highway extension is being built right over the laundry plant where he works—and right over his home. The house he has lived in for twenty years and where he created loving memories with his family. Dawes isn’t the sort of man who will take an insult of this magnitude lying down. His steadfast determination to fight the inevitable course of progress drives his wife and friends away while he tries to face down the uncaring bureaucracy that has destroyed his life. But before the city paves over that part of Dawes’s life, he’s got one more party to throw—and it’ll be a blast. What happens when one good (and angry) man fights back…and then some? This #1 national bestseller includes an introduction by Stephen King on “The Importance of Being Bachman.”
+Identifier: 
+ISBN_13: 9781501141331
+
+
+Entry number 3
+Time Added: 2019-11-11T12:16:42.981648
+ Title: Heart-Shaped Box LP
+Author(s): ['Joe Hill']
+Publisher: Harper Collins
+Description: Judas Coyne is a collector of the macabre: a cookbook for cannibals . . . a used hangman's noose . . . a snuff film. An aging death-metal rock god, his taste for the unnatural is as widely known to his legions of fans as the notorious excesses of his youth. But nothing he possesses is as unlikely or as dreadful as his latest purchase, an item he discovered on the Internet: I will sell my stepfather's ghost to the highest bidder . . . For a thousand dollars, Jude has become the owner of a dead man's suit, said to be haunted by a restless spirit. But what UPS delivers to his door in a black heart-shaped box is no metaphorical ghost, no benign conversation piece. Suddenly the suit's previous owner is everywhere: behind the bedroom door . . . seated in Jude's restored Mustang . . . staring out from his widescreen TV. Waiting—with a gleaming razor blade on a chain dangling from one hand . . .
+Identifier: 
+ISBN_13: 9780061233241
+
+
+Entry number 4
+Time Added: 2019-11-11T12:17:05.308141
+ Title: The Great Songs of Cat Stevens
+Author(s): ['Cat Stevens']
+Publisher: Music Sales Amer
+Description: (Piano/Vocal/Guitar Artist Songbook). An outstanding collection of songs by one of the world's greatest singer/songwriters. Includes: Father and Son * Wild World * Morning Has Broken * and more. All eleven songs are arranged for piano and voice with full guitar boxes and chord symbols.
+Identifier: 
+ISBN_10: 0711905649
+
+
+Entry number 5
+Time Added: 2019-11-11T12:25:45.286394
+ Title: Millions of Cats
+Author(s): ['Wanda Gág']
+Publisher: Penguin
+Description: How can an old man and his wife select one cat from a choice of millions and trillions?
+Identifier: 
+ISBN_13: 9780142407080
+
+
+Entry number 6
+Time Added: 2019-11-11T12:26:19.259870
+ Title: Re: The Ash Lad
+Author(s): Author not found.
+Publisher: noemata.net
+Description: Description not found.
+Identifier: 
+ISBN_13: 9788292860007
+
+
+Entry number 7
+Time Added: 2019-11-11T12:29:00.733978
+ Title: Roadwork
+Author(s): ['Stephen King']
+Publisher: Simon and Schuster
+Description: Only Stephen King, writing as Richard Bachman, can imagine the horror of a good and angry man who fights back against bureaucracy when it threatens to destroy his vitality, home, and memories. “Under any name King mesmerizes the reader” (Chicago Sun-Times). Barton Dawes’s unremarkable but comfortable existence suddenly takes a turn for the worst. A new highway extension is being built right over the laundry plant where he works—and right over his home. Dawes isn’t the sort of man who will take an insult of this magnitude lying down. His steadfast determination to fight the inevitable course of progress drives his wife and friends away while he tries to face down the uncaring bureaucracy that has destroyed his life. This #1 national bestseller includes an introduction by Stephen King on “The Importance of Being Bachman.”
+Identifier: 
+ISBN_13: 9781501143830
+
+
+Entry number 8
+Time Added: 2019-11-11T12:31:49.502201
+ Title: Svenskt dialekt-lexikon
+Author(s): ['Johan Ernst Rietz']
+Publisher: Publisher not found.
+Description: Description not found.
+Identifier: 
+OTHER: COLUMBIA:CU50316605
+
+
+Entry number 9
+Time Added: 2019-11-11T12:33:48.885487
+ Title: Dogs
+Author(s): ['Kate Petty']
+Publisher: Barron's Educational Series
+Description: Describes the characteristics and behavior of dogs, shows various breeds, and explains why dogs need to be trained.
+Identifier: 
+ISBN_10: 0812014847
+
+
+Entry number 10
+Time Added: 2019-11-11T12:44:08.181218
+ Title: Pharmaceutical Innovation
+Author(s): ['Ralph Landau', 'Basil Achilladelis', 'Alexander Scriabine']
+Publisher: Chemical Heritage Foundation
+Description: A wide-ranging look at an industry that is central to the health and welfare of humanity, this pioneering work documents how science has provided an astonishing array of medicines for coping with human ailments over the last 150 years. Pharmaceutical Innovation covers the history of the pharmaceutical industry and its many contributions to human health. Underpinning the volume is an outline of the five generations of medicine, from the 1820s to present day. The volume also addresses industry leaders, economic influences, and the development of individual products. These factors have particular significance for the pharmaceutical industry today. This book's account of research and development in a key industry makes Pharmaceutical Innovation required reading for policy makers, economists, corporate executives, research managers, and historians of science, technology, and medicine.
+Identifier: 
+ISBN_10: 0941901211
+
+
+Entry number 11
+Time Added: 2019-11-11T12:44:39.501632
+ Title: Pancakes for Breakfast
+Author(s): ['Tomie DePaola']
+Publisher: Houghton Mifflin Harcourt
+Description: A little old lady's attempts to have pancakes for breakfast are hindered by a scarcity of supplies and the participation of her pets.
+Identifier: 
+ISBN_10: 0156707683
+
+
+Entry number 12
+Time Added: 2019-11-11T12:45:22.501295
+ Title: Dogs
+Author(s): ['Catherine Johns']
+Publisher: Harvard University Press
+Description: The juxtaposition and explanation of images as diverse as Greek pottery, Victorian jewelry, Assyrian sculpture, and Japanese netsuke, illuminates our understanding of the place of dogs in human society around the world. This book explores these cultural expressions and reflections of our deep and long-standing interest in dogs.
+Identifier: 
+ISBN_10: 0674030931
+
+
