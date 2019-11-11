@@ -6,10 +6,9 @@ import re
 
 
 class GBooks():
-    googleapikey = "AIzaSyB70dRppmd86Am9xm7HBZfjfd8a8eqgOLY"
 
     # def search(self, value):
-    #     parms = {"q": value, 'key': self.googleapikey}
+    #     parms = {"q": value}
     #     r = requests.get(url="https://www.googleapis.com/books/v1/volumes", params=parms)
     #     print(r.url)
     #     rj = r.json()
